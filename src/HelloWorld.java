@@ -1,4 +1,5 @@
 import java.time.Clock;
+import java.util.ArrayList;
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -7,5 +8,7 @@ public class HelloWorld {
 
         String url = phoneTokenUrl + "?timestamp=" + millis;
         System.out.println(url);
+
+        ArrayList<Object> objects = new ArrayList<>();
     }
 }
