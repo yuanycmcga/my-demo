@@ -20,12 +20,11 @@ public class TestDemo {
     }
     @Test
     public void demo() {
-
         List<String> strList = new ArrayList<>();
         strList.add("a");
         strList.add("b");
-
         test(strList);
+        Object o = new Object();
 
     }
 
