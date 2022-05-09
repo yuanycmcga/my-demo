@@ -10,7 +10,7 @@ import javax.sound.midi.Soundbank;
  * @description concurrent
  * @create 2020/10/21 23:50
  */
-public class Test {
+public class TestDemo {
     public static void main(String[] args) {
         System.out.println(Runtime.getRuntime().availableProcessors());
     }

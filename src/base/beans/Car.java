@@ -1,11 +1,9 @@
 package base.beans;
 
-import javax.naming.Name;
-
 /**
  * @author chenyuanyuan
  * @company Sunline
- * @description TODO
+ * @description Car
  * @create 2020/09/27 16:52
  */
 public class Car {
@@ -13,6 +11,15 @@ public class Car {
     private String name;
     private String brand;
     private String type;
+
+    public Car() {
+
+    }
+    public Car(String name, String brand, String type) {
+        this.name = name;
+        this.brand = brand;
+        this.type = type;
+    }
 
     public String getName() {
         return name;
